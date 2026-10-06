@@ -49,7 +49,7 @@ We do not use the data for advertising or marketing, sell or license it, or use 
 
 ## 5. Security
 
-Data is held in a private database on the Bot operator's server. Access is limited to the operator, and the server's storage is [ENCRYPTED, state this only once disk encryption such as BitLocker is turned on]. If we learn of unauthorized access to this data, we will notify Discord and affected users as required.
+Data is held in a private database on the Bot operator's server. Access is limited to the operator. If we learn of unauthorized access to this data, we will notify Discord and affected users as required.
 
 ## 6. Your choices: access, correction and deletion
 
