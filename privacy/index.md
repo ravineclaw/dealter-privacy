@@ -4,9 +4,9 @@ layout: default
 
 # Privacy Policy: The De-Alter
 
-**Last updated: October 5, 2026**
+**Last updated: October 11, 2026**
 
-The De-Alter ("the Bot") is a Discord moderation bot used by Minecraft tier-testing communities (McTiers and Subtiers). This policy explains what data the Bot collects, how it is used and shared, how long it is kept, and how you can ask for it to be corrected or deleted.
+The De-Alter ("the Bot") is a Discord moderation bot used by Minecraft tier-testing communities. This policy explains what data the Bot collects, how it is used and shared, how long it is kept, and how you can ask for it to be corrected or deleted.
 
 Contact: **dealter@ravineclaw.dev**
 
@@ -17,13 +17,13 @@ Contact: **dealter@ravineclaw.dev**
 - the tested player's Minecraft UUID and username
 - the test date, and links to the source and result messages
 
-**From Discord's moderation data.** For servers in the participating networks, the Bot stores ban records: Discord user ID, server ID and name, ban reason and timestamp.
+**From Discord's moderation data.** For participating servers, the Bot stores ban records: Discord user ID, server ID and name, ban reason and timestamp.
 
 **To operate.** The Bot also stores:
 - Discord user IDs of Bot admins
 - channel IDs of the input, output and resolution-log channels
 - resolution logs: the staff member's user ID, the outcome, and the reason they gave
-- a short-lived cache of Minecraft UUID status lookups from the McTiers and Subtiers public APIs
+- a short-lived cache of Minecraft UUID status lookups from the tier-testing network's public API
 
 **What we do not collect.** The Bot does not store the text of ordinary messages, direct messages, presence or activity, email addresses, passwords or any login credentials. It only reads messages posted by the configured test bot in channels an admin has set as input channels, and it ignores all other messages.
 
@@ -36,7 +36,7 @@ We do not use the data for advertising or marketing, sell or license it, or use 
 ## 3. Who sees it
 
 - Staff of the servers where the Bot is configured see the alert embeds, which show linked accounts and ban information.
-- Ban information from one participating server may be shown to staff of other participating servers in the same network, so they can check for ban evasion.
+- Ban information from one participating server may be shown to staff of other participating servers, so they can check for ban evasion.
 - We do not share data with data brokers, advertisers or other third parties, except where the law requires it.
 
 ## 4. Retention
@@ -55,7 +55,7 @@ Data is held in a private database on the Bot operator's server. Access is limit
 
 You can ask us to show you, correct or delete your data at any time. Email **dealter@ravineclaw.dev** from any address and include your Discord user ID and, if you have one, your Minecraft username or UUID. We may ask you to prove the Discord account is yours (for example by messaging us from it).
 
-We will act on a request within 30 days. A deletion removes your test records, ban records, admin entries and cached lookups, replaces your ID in resolution logs with "deleted", and adds your IDs to a block list so a later resync does not bring the records back. The block list holds only the IDs.
+We will act on a request within 30 days. A deletion removes your test records, ban records, admin entries and cached lookups, and replaces your ID in resolution logs with "deleted". The Bot can rebuild test records by re-reading the original test-result message, so if that message is still in a server's log channel, ask that server's staff to remove it as well, or tell us and we will stop the Bot reading that channel.
 
 Server admins can stop the Bot reading a channel with `/removeinput`, or remove the Bot from their server at any time.
 
