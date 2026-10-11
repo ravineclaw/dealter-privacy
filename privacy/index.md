@@ -25,7 +25,7 @@ Contact: **dealter@ravineclaw.dev**
 - resolution logs: the staff member's user ID, the outcome, and the reason they gave
 - a short-lived cache of Minecraft UUID status lookups from the tier-testing network's public API
 
-**What we do not collect.** The Bot does not store the text of ordinary messages, direct messages, presence or activity, email addresses, passwords or any login credentials. It only reads messages posted by the configured test bot in channels an admin has set as input channels, and it ignores all other messages.
+**What we do not collect.** The Bot does not store the text of ordinary messages, direct messages, presence or activity, email addresses, passwords or any login credentials. It only reads messages posted by the configured test bot in channels an admin has set as input channels, and it ignores all other messages. The Bot uses Discord's Message Content intent only to read the embeds posted by that test bot; it does not read, log or store what users write.
 
 ## 2. How we use it
 
